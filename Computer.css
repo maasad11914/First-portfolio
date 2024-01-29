@@ -1,0 +1,96 @@
+body{
+
+}
+/* NAV START */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.name h1{
+    text-align: left;
+}
+
+.logo{
+    text-align: left;
+}
+
+.menu a{
+    color: white;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* NAV END */
+
+/* <!-- BODY STARTS --> */
+.body{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+
+}
+.description{
+    font-size: 15px;
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    top: 45px;
+}
+.description h1{
+    text-align: left;
+}
+.description p{
+    margin-top: 10px;
+    color: grey;
+    text-align: justify;
+}
+.img{
+    position: absolute;
+    top: -50px;
+    right: 10px;
+}
+.img img{
+    width: 520px;
+    height: 440px;
+}
+.img-2{
+    width: 100%;
+    height: 382px;
+    border:2px solid black;
+}
+/* <!-- BODY ENDS --> */
+
+
+/* <!-- Experince START --> */
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/* <!-- Experiense END --> */
+
+
+/* Footer start */
+
+
+
+/* Footer end */
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+

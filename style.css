@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* NAV START */
+.logo img{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.nav{
+    background-color: #6499E9;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.menu a{
+    width: 80%;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgb(90, 192, 226);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.094);
+
+}
+
+.menu a:hover{
+    background-color: rgb(62, 62, 199);
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* Mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+.name h1{
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Playpen Sans', cursive;
+    color: lightcyan;
+}
+
+.nav::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* NAV END */
+
+/* <!-- BODY STARTS --> */
+
+.body{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+.description{
+    font-size: 10px;
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.description h1{
+    text-align: left;
+}
+
+.description p{
+    margin-top: 10px;
+    color: grey;
+    text-align: justify;
+}
+
+.img{
+    position: absolute;
+    top: -50px;
+    right: -150px;
+}
+
+.img img{
+    width: 520px;
+    height: 440px;
+    
+}
+
+.img-2{
+    width: 100%;
+    height: 382px;
+    border:2px solid black;
+    
+}
+
+.body::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* <!-- BODY ENDS --> */
+
+.headOfEx{
+    color: white;
+    width: 100%;
+    display: flex;
+    height: 70px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #6499E9;
+}
+
+.headOfEx::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* <!-- Experince START --> */
+.card-container{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    height: 400px;
+    width: 65%;
+    margin: 10px;
+    border-radius: 2%;
+    text-align: center;
+    background-color: #E1AA74;
+    padding: 0px;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0px 8px 10px black;
+}
+
+h3{
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 8%;
+    width: 90%;
+    color: white;
+    text-align: center;
+    background-color: #748E63;
+}
+
+.card ol{
+    text-align: left;
+    margin:40px 2% 20px 16%;
+}
+
+.card-logo{
+    margin: 15px 0;
+    padding: 9px;
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    border: 3px solid #99b080;
+    border-radius: 50%;
+}
+.card-container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* <!-- Experiense END --> */
+
+/* Contact start */
+.contact-section-container{
+    margin:10px 0 ;
+    padding: 10px 30px;
+    background-color: #748E63;
+    text-align: center;
+}
+.about-section{
+    width: 100%;
+}
+.contact-input-section{
+    width: 100%;
+}
+.input h2{
+    margin-bottom: 10px;
+}
+.contact-section{
+    width: 100%;
+    padding: 10px;
+}
+.contacts h2{
+    margin-bottom: 10px;
+}
+input,textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border-style: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact-section-container h2{
+    color:white ;
+}
+b{
+    color: darkred;
+}
+.about-section p{
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}
+.contact-section .contacts div{
+    padding: 5px;
+}
+.contact-section .contacts a{
+    text-decoration: none;
+    color: white;
+}
+.contact-section .contacts a:hover{
+    color: #F9B572;
+}
+.contact-section-container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* Contact end */
+
+/* Footer start */
+.footer{
+    background-color: black;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.footer button{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+.footer button:hover{
+    background-color: gray;
+}
+.footer p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+/* Footer end */
+
